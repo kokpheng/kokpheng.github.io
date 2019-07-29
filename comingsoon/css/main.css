@@ -14,7 +14,7 @@ Primary use:
 
 @font-face {
   font-family: Poppins-Regular;
-  src: url('https://github.com/google/fonts/blob/master/ofl/poppins/Poppins-Regular.ttf'); 
+  src: url('../fonts/Poppins/Poppins-Regular.ttf'); 
 }
 
 @font-face {
