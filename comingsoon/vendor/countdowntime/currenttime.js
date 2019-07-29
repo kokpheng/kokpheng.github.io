@@ -7,11 +7,12 @@
 
         return this.each(function() {
           const obj = $(this);
-
+          
           const yearsSpan = $(obj).find('.years');
           const monthsSpan = $(obj).find('.months');
           const daysSpan = $(obj).find('.days');
           const hoursSpan = $(obj).find('.hours');
+          const hoursFormatSpan = $(obj).find('.hours-format');
           const minutesSpan = $(obj).find('.minutes');
           const secondsSpan = $(obj).find('.seconds');
 
@@ -22,6 +23,7 @@
             monthsSpan.html(d.format('MM'));
             daysSpan.html(d.format('DD'));
             hoursSpan.html(d.format('hh'));
+            hoursFormatSpan.html(d.format('A'));
             minutesSpan.html(d.format('mm'));
             secondsSpan.html(d.format('ss'));
 
