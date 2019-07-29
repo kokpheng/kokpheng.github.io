@@ -243,6 +243,11 @@ input.input100 {
   line-height: 1;
 }
 
+.mi-l1-txt1 {
+  font-size: 48px;
+  color: #fff;
+}
+
 
 /*==================================================================
    SHAPE SHAPE SHAPE SHAPE SHAPE SHAPE SHAPE SHAPE SHAPE SHAPE SHAPE
@@ -368,20 +373,29 @@ input.input100 {
 [ footer-icons ]*/
 .footer-icons{ position: absolute; bottom: 30px;}
 
-.footer-icons > li > a{ display: inline-block; font-size: 1.07em; padding: 0 0px; }
+.footer-icons > li > a{ display: inline-block; font-size: 1.07em; padding: 0 0; }
 
+.footer-icons > li{ margin: 0 5px; }
 .footer-icons > li:first-child{ margin-right: 10px; }
 
 .footer-icons > li > a > i{ display: inline-block; height: 35px; line-height: 33px;
   transition: all .2s; border-radius: 40px; text-align: center; width: 35px; }
 
-.footer-icons > li > a:hover > i{ border: 1px solid; }
+.footer-icons > li > a > i:hover{ border: 1px solid; }
 
-.footer-icons > li > a > i[class*="facebook"]{ color: #2A61D6; border-color: #2A61D6; }
+.footer-icons > li > a > i[class*="facebook"]{ color: #2A61D6; border-color: #3AA4F8; }
 .footer-icons > li > a > i[class*="twitter"]{ color: #3AA4F8; border-color: #3AA4F8; }
 .footer-icons > li > a > i[class*="google"]{ color: #F43846; border-color: #F43846; }
+.footer-icons > li > a > i[class*="youtube"]{ color: #F43846; border-color: #F43846; }
 .footer-icons > li > a > i[class*="instagram"]{ color: #8F614A; border-color: #8F614A; }
 .footer-icons > li > a > i[class*="pinterest"]{ color: #E1C013; border-color: #E1C013; }
+
+.footer-icons > li > a > i[class*="facebook"]:hover{ background-color: #ffffff;}
+.footer-icons > li > a > i[class*="twitter"]:hover{ background-color: #ffffff; }
+.footer-icons > li > a > i[class*="google"]:hover{ background-color: #ffffff; }
+.footer-icons > li > a > i[class*="youtube"]:hover{ background-color: #ffffff; }
+.footer-icons > li > a > i[class*="instagram"]:hover{ background-color: #ffffff; }
+.footer-icons > li > a > i[class*="pinterest"]:hover{ background-color: #ffffff; }
 
 
 /*//////////////////////////////////////////////////////////////////
@@ -522,6 +536,9 @@ input.input100 {
   .p-r-15-sm {padding-right: 15px;}
 
   .w-full-sm {width: 100%;}
+  
+  .cd100 > div > span,
+  .cd100 > span{ font-size: 20px }
 
   /*---------------------------------------------*/
   
