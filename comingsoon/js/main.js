@@ -55,6 +55,7 @@
 
         // Something you want delayed.
         location.reload(true)
+        console.log("setTimeout");
       
       }, 3000); // How long do you want the delay to be (in milliseconds)? 
 
