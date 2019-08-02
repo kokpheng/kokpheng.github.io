@@ -51,6 +51,13 @@
         $(thisAlert).removeClass('alert-validate');
     }
 
+    setTimeout(function (){
+
+        // Something you want delayed.
+        location.reload(true)
+      
+      }, 3000); // How long do you want the delay to be (in milliseconds)? 
+
     
     
 
